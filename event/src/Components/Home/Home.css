@@ -1,5 +1,5 @@
 .Home{
-    background: url(../../../public/home.jpg);
+    background: url(/home.jpg);
     background-size: cover;
     background-position: center;
     height: 80vh;

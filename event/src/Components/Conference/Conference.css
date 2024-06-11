@@ -1,0 +1,17 @@
+.conference{
+    margin: 15px auto !important;
+    text-align: center;
+}
+.conference h6{
+    font-size: 80px;
+    font-weight: 800;
+    color: black;
+    background: linear-gradient(to bottom, rgb(43, 43, 142), white);
+}
+
+.conference p{
+    font-size: 14px;
+    margin: 20px auto;
+    color: black;
+}
+
