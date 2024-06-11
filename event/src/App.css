@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,400;1,500&display=swap");
+
+:root{
+    --main:#200aae;
+    --boxShadow: 15px 15px 15px -10px rgba(155,14, 14, 0.6),
+        inset 10px 10px 10px -10px rgba(91,104,133,0.8); 
+}
+
+* {
+    font-family: "Besley", serif;
+}
+
+*::selection {
+    background: var(--main);
+    color: #fff;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #000, #fff, #474444);
+    background-repeat: no-repeat;
+}
+

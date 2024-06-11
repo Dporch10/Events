@@ -1,0 +1,32 @@
+.navbarMain{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: var(--boxShadow);
+}
+
+.navbarMain .navbar-brand{
+    font-size: 1.5em;
+    font-weight: 800;
+    padding: 5px 60px;
+    color: var(--main)
+}
+
+.navbarMain h6{
+    padding: 10px;
+    font-weight: 800;
+
+}
+
+/* */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background: black;
+}
+
+.nav-link{
+    color: white !important;
+    
+}
