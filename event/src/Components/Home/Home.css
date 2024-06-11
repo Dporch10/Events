@@ -1,0 +1,14 @@
+.Home{
+    background: url(../../../public/home.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    
+}
+
+.HomeContent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
