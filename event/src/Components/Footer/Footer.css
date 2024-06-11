@@ -1,0 +1,9 @@
+footer{
+    background: var(--main);
+    text-align: center;
+    padding: 20px;
+}
+footer a{
+    color:white !important;
+    text-decoration: none !important;
+}

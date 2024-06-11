@@ -5,7 +5,7 @@ import Conference from "./Components/Conference/conference";
 import RecentEvents from "./Components/RecentEvents/RecentEvents";
 import Events from "./Components/Events/Events";
 import Contact from "./Components/Contact/Contact";
-
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
     return (
@@ -16,6 +16,7 @@ const App = () => {
             <RecentEvents/>
             <Events/>
             <Contact/>
+            <Footer/>
         </>
     );
 };
