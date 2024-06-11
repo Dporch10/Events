@@ -32,3 +32,13 @@ body {
     background: black;
 }
 
+.content{
+    text-align: center;
+    margin: 50px auto;
+}
+
+.content h6 {
+    font-size: 40px;
+    font-weight: 800;
+    background: linear-gradient(to bottom, rgb (243, 70,23),black);
+}

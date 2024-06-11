@@ -18,7 +18,7 @@ const Conference = () => {
     );
     
 };
-    var CountDownDate = new Date("June 12, 2024").getTime();
+    var CountDownDate = new Date("June 20, 2024").getTime();
    //console.log(CountDownDate); 
     var x = setInterval(() => {
         var Now = new Date().getTime();
@@ -33,4 +33,9 @@ const Conference = () => {
         document.getElementById("ConferenceTimingClock").innerHTML = Days + "D- " + Hours + "H- " + Min + "M- " + Sec + "S";
     }, 1000)
 
+    // To prevent from this
+    if (Dis < 0) {
+        clearInterval(X);
+        document.getElementById("ConferenceTimingClock").innerHTML = "SORRY THE EVENT IS OVER"
+    }
     export default Conference;
