@@ -8,6 +8,7 @@
 
 * {
     font-family: "Besley", serif;
+    transition: 0.2s ease-in;
 }
 
 *::selection {
